@@ -52,11 +52,13 @@ article h2 {
 }
 
 article .postlink {
+    width: 100%;
     text-align: right;
     text-decoration: none;
 }
 
 footer {
+    margin: 2em;
     display: block;
     clear: both;
     height: 1em;
