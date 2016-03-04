@@ -13,9 +13,17 @@ body {
     hyphens: auto;
     -ms-hyphens: auto;
     -webkit-hyphens: auto;
+
+    min-width: 45ch;
+    max-width: 95ch;
 }
 
 header {
     width: 100%;
     text-align: center;
+}
+
+header a {
+    text-decoration: none;
+    color:black;
 }
