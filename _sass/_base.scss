@@ -45,7 +45,6 @@ article {
 
 article h1 {
     font-size: calc(1.5*(14px + 0.15vw + 0.15vh));
-    text-decoration: underline;
 }
 
 article h2 {
@@ -55,8 +54,11 @@ article h2 {
 article .postlink {
     width: inherit;
     text-align: right;
-    text-decoration: none;
     color:black;
+}
+
+article a {
+    color: black;
 }
 
 footer {
