@@ -52,7 +52,8 @@ article h2 {
 }
 
 article .postlink {
-    float: right;
+    width: inherit;
+    text-align: right;
     text-decoration: none;
     color:black;
 }
