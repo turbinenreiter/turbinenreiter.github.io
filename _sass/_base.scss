@@ -26,9 +26,9 @@ body {
 }
 
 header {
-    margin: 2em;
-    width: 100%;
-    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 3em;
+    border-bottom: 1px solid grey;
 }
 
 header a {
@@ -40,7 +40,7 @@ header a {
 
 article {
     text-align: justify;
-    margin-top: 2em;
+    margin-top: 3em;
     border-bottom: 1px solid grey;
 }
 

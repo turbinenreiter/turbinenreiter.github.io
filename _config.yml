@@ -17,3 +17,5 @@ github_username:  turbinenreiter
 
 # Build settings
 markdown: kramdown
+
+paginate: 5
