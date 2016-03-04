@@ -41,6 +41,7 @@ header a {
 
 article {
     text-align: justify;
+    margin: 2em;
 }
 
 article h1 {
@@ -51,14 +52,18 @@ article h2 {
     font-size: calc(1.25*(14px + 0.15vw + 0.15vh));
 }
 
+article a {
+    color: black;
+}
+
+article image {
+    max-width: 100%;
+}
+
 article .postlink {
     width: inherit;
     text-align: right;
     color:black;
-}
-
-article a {
-    color: black;
 }
 
 footer {
