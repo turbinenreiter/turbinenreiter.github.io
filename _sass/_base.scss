@@ -1,6 +1,11 @@
 /**
  * Reset some basic elements
  */
+
+html {
+    text-align: center;
+}
+
 body {
     text-rendering: optimizeLegibility;
     font-variant-ligatures: common-ligatures;
@@ -16,8 +21,6 @@ body {
 
     min-width: 45ch;
     max-width: 95ch;
-
-    text-align: center;
 }
 
 header {
