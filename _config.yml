@@ -18,4 +18,5 @@ github_username:  turbinenreiter
 # Build settings
 markdown: kramdown
 
+gems: [jekyll-paginate]
 paginate: 5
