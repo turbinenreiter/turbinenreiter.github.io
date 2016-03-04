@@ -27,6 +27,7 @@ body {
 }
 
 header {
+    margin: 1em;
     width: 100%;
     text-align: center;
 }
@@ -34,7 +35,8 @@ header {
 header a {
     text-decoration: none;
     color:black;
-    font-size: calc(1.5*(14px + 0.15vw + 0.15vh));
+    font-size: calc(2.5*(14px + 0.15vw + 0.15vh));
+    font-weigth: bold;
 }
 
 article {
