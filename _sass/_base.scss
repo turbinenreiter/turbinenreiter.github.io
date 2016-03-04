@@ -51,6 +51,11 @@ article h2 {
     font-size: calc(1.25*(14px + 0.15vw + 0.15vh));
 }
 
+article .postlink {
+    text-align: right;
+    text-decoration: none;
+}
+
 footer {
     display: block;
     clear: both;

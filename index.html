@@ -5,6 +5,6 @@ layout: default
 {% for post in site.posts %}
   <article>
     {{ post.content }}
-    <a href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%d.%m.%Y" }}</a>
+    <a class="postlink" href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%d.%m.%Y" }}</a>
   </article>
 {% endfor %}
