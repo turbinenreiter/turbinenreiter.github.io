@@ -3,9 +3,10 @@ layout: default
 ---
 
     {% for post in site.posts %}
-      {{ post.date | date: "%b %-d, %Y" }}
-          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          {{ post.content }}
+      <article>
+        {{ post.content }}
+        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%dd.%MM.%yyyy" }}</a>
+      </article>
     {% endfor %}
   </ul>
 
