@@ -52,9 +52,9 @@ article h2 {
 }
 
 article .postlink {
-    width: 100%;
-    text-align: right;
+    float: right;
     text-decoration: none;
+    color:black;
 }
 
 footer {
@@ -67,6 +67,7 @@ footer {
 footer a {
     text-decoration: none;
     margin: 1em;
+    color:black;
 }
 
 footer svg {
