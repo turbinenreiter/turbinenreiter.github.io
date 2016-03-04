@@ -16,6 +16,8 @@ body {
 
     min-width: 45ch;
     max-width: 95ch;
+
+    text-align: center;
 }
 
 header {
@@ -26,4 +28,8 @@ header {
 header a {
     text-decoration: none;
     color:black;
+}
+
+article {
+    text-align: justify;
 }
