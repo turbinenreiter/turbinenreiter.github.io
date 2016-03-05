@@ -28,7 +28,7 @@ body {
 header {
     margin-top: 2em;
     margin-bottom: 3em;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid #424242;
 }
 
 header a {
@@ -46,8 +46,7 @@ article {
 
 article h1 {
     text-align: left;
-    background-color: #FAFAFA;
-    margin: 1em;
+    border-bottom: 1px solid #FAFAFA;
     font-size: calc(2.5*(14px + 0.15vw + 0.15vh));
 }
 
