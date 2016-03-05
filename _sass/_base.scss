@@ -28,7 +28,7 @@ body {
 header {
     margin-top: 2em;
     margin-bottom: 3em;
-    border-bottom: 1px solid #424242;
+    border-bottom: 2px solid #424242;
 }
 
 header a {
@@ -39,14 +39,14 @@ header a {
 }
 
 article {
-    text-align: justify;
+    text-align: left;
     margin-top: 3em;
-    border-bottom: 1px solid grey;
+    border-bottom: 2px solid #757575;
 }
 
 article h1 {
-    text-align: left;
-    border-bottom: 1px solid #FAFAFA;
+    text-align: right;
+    border-bottom: 6px solid #E0E0E0;
     font-size: calc(2.5*(14px + 0.15vw + 0.15vh));
 }
 
