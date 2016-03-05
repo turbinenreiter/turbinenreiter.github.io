@@ -18,5 +18,8 @@ github_username:  turbinenreiter
 # Build settings
 markdown: kramdown
 
+kramdown:
+  math_engine: mathjax
+
 gems: [jekyll-paginate]
 paginate: 5
