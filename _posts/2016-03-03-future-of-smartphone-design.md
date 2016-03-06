@@ -1,3 +1,6 @@
+---
+layout: post
+---
 # What’s next in smartphone design?
 
 When the first iPhone came out, it defined the new design pattern that eventually all smartphone makers would follow. A smartphone now is a screen on a rectangular box. This basic recipe will stay with us for a long time, but let’s look at how the details evolved.
