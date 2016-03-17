@@ -42,6 +42,7 @@ article {
     text-align: left;
     margin-top: 3em;
     border-bottom: 2px solid #757575;
+    display: block;
 }
 
 article h1 {
@@ -75,7 +76,7 @@ article p img {
 }
 
 article .postlink {
-    width: 78ch;
+    width:inherit;
     text-align: right;
     color:black;
 }
