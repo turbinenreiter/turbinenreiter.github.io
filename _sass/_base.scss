@@ -81,7 +81,9 @@ article .postlink {
 }
 
 blockqoute {
-    
+    max-width: 39ch;
+    text-align: right;
+    font-size: calc(1.25*(14px + 0.15vw + 0.15vh));
 }
 
 footer {
