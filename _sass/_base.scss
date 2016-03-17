@@ -42,7 +42,6 @@ article {
     text-align: left;
     margin-top: 3em;
     border-bottom: 2px solid #757575;
-    display: block;
 }
 
 article h1 {
@@ -79,12 +78,14 @@ article .postlink {
     width:inherit;
     text-align: right;
     color:black;
+    display: block;
 }
 
 blockqoute {
     max-width: 39ch;
     text-align: right;
     font-size: calc(1.25*(14px + 0.15vw + 0.15vh));
+    display: block;
 }
 
 footer {
