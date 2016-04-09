@@ -1,0 +1,24 @@
+---
+layout: post
+---
+<h1>I built a poor man's Taptic Engine</h1>
+<p>With the Apple Watch, Apple introduced a new technology, that senses the pressure of your touch. It's now used in MacBooks and iPhones, although the names and implementations differ. What they all have in common is the two things it does:</p>
+<ol>
+<li>detect how hard you press down</li>
+<li>give you feedback without the touched surface actually moving</li>
+</ol>
+<p>Let's use the touchpad as an example. The old touchpad was mounted on a hinge at the top and rested on a button at the bottom. If you clicked the touchpad, it would rotate as a whole around that hinge, press the button and thereby register your input. When pressing down, you felt the mechanical resistance of the button and the 'click' when you overcame it.<br />The new touchpad rests on 4 springs. If you press down on it, it does indeed move, but only a very small way, compressing those springs and thereby putting strain on them. This strain can easily be measured with resistive strain gauges. Now the touchpad can register your click when the force you put down exceeds a certain margin - and it can register a harder click as such when you put more force down.<br />However, as it doesn't move you don't feel the click when overcoming the resistance of a button, which leaves you with no feedback about whether or not your input was detected. To solve that, Apple added the Taptic Engine. The Taptic Engine consists of four flat electromagnets parallel to the bottom of the touchpad. The underside of the touchpad has a steel flange on it, which the magnets can interact with. By using the magnetic force, these magnets can vibrate the touchpad and with that simulate the feeling you get pressing a normal button.<br />Check out the iFixit video to get a much better explanation (and I'd love to embed the video but I can't):</p>
+<p><a href="https://www.youtube.com/watch?v=x3B3bHt8ya8" target="_blank">iFixit</a></p>
+<h2>From Touchpad to keyboard</h2>
+<p>My prediction is that Apple's next keyboard will be based around the same technology. I can predict that because <strike>I'm really smart, good looking and fun</strike> of <a style="background-color: #ffffff;" href="http://appft1.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&amp;Sect2=HITOFF&amp;d=PG01&amp;p=1&amp;u=/netahtml/PTO/srchnum.html&amp;r=1&amp;f=G&amp;l=50&amp;s1=20160098107.PGNR.">this patent application.<br /></a>Now, the actual implementation may vary from the touchpad, but the basic idea stays the same: replace a physical button with a pressure sensor and system that simulates the haptic feedback of a click.</p>
+<h2>DIY</h2>
+<p>I had some stuff flying around and so I decided to try and build my own version of Apple's next keyboard. I just made one 'key' and it obviously is far from what Apple's will actually look like, but it's enough to demonstrate the technology and make the basic principles behind it a little more accessible.</p>
+<div><img src="https://cdn2.vox-cdn.com/uploads/chorus_asset/file/6311595/IMG_20160409_161827106.0.jpg" alt="Poor Man" />
+<p class="caption">Poor Man's Taptic Engine</p>
+</div>
+<p>My 'key' consists of a spring loaded push-pull solenoid. If you attach the solenoid to power, it pulls the rod back, if you cut the power, the spring let's it snap back. This is my 'Taptic Engine', creating the vibration that simulates the 'click' of the button. My 'pressure sensor' solely consists of two metal tabs - when pushed together, they close the circuit and make the solenoid pull the rod. And of course it's the Linux Super Key because DIY.</p>
+<div><img src="https://cdn3.vox-cdn.com/uploads/chorus_asset/file/6311593/IMG_20160409_162123537.0.jpg" alt="IMG_20160409_162123537.0.jpg" /></div>
+<div><br /></div>
+<p><a href="https://photos.google.com/share/AF1QipPPNSW6Xhvc4fLyOVj5SFUCkodsoTVFC_a7Ni9J6BKXODVzQCcgh2s6p8w_hw4HXA?key=aHpBMlBuUmpsbElkMUZPMWNTZ1Bmamc2MzZoVmFR" target="_blank">Some more pictures and a video.</a></p>
+<p>The reason we prefer mechanical keyboards over touchscreen keyboards is the haptic feedback they provide. With the the Force Touch touchpad, Apple showed that they can simulate this feedback very well without actually needing a mechanical switch. If they can bring this technology down in size to fit in a single key, they can build a next generation keyboard, opening up lots of new design possibilities and use-cases.</p>
+<h4>And when I can throw that together in 15 minutes, imagine what Apple with all their resources can do.</h4>
