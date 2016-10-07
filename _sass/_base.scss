@@ -12,7 +12,9 @@ body {
     font-variant-ligatures: common-ligatures;
     font-kerning: normal;
 
-    font-family: Source Serif Pro, PT Sans, Trebuchet MS, Helvetica, Arial;
+    font-family: 'Source Sans Pro', sans-serif;
+    #font-family: 'Source Code Pro', monospace;
+    #font-family: 'Source Serif Pro', serif;
     font-weight: 400;
     font-size: calc(14px + 0.15vw + 0.15vh);
     line-height: 1.4;
@@ -37,6 +39,7 @@ header a {
 }
 
 article {
+    font-family: 'Source Serif Pro', serif;
     text-align: left;
     margin-top: 3em;
     border-bottom: 2px solid #757575;
