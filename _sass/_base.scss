@@ -16,16 +16,17 @@ body {
     #font-family: 'Source Code Pro', monospace;
     #font-family: 'Source Serif Pro', serif;
     font-weight: 400;
-    font-size: calc(14px + 0.15vw + 0.15vh);
+    font-size: calc(16px + 0.15vw + 0.15vh);
     line-height: 1.4;
     hyphens: auto;
 
-    max-width: 78ch;
+    max-width: 52ch;
 
     margin: 0 auto;
 }
 
 header {
+    font-family: 'Source Code Pro', monospace;
     margin-top: 2em;
     margin-bottom: 3em;
     border-bottom: 2px solid #424242;
