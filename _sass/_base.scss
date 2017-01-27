@@ -20,11 +20,9 @@ body {
     line-height: 1.4;
     hyphens: auto;
 
-    max-width: 78ch;
+    max-width: 65ch;
 
     margin: 0 auto;
-
-    text-align: center;
 }
 
 header {
@@ -37,12 +35,11 @@ header {
 header a {
     text-decoration: none;
     color:black;
-    font-size: calc(3*(16px + 0.15vw + 0.15vh));
+    font-size: calc(2.5*(16px + 0.15vw + 0.15vh));
     font-weigth: bold;
 }
 
 article {
-    max-width: 65ch;
     font-family: 'Source Serif Pro', serif;
     text-align: left;
     margin-top: 3em;
