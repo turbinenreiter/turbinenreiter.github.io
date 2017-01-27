@@ -20,13 +20,12 @@ body {
     line-height: 1.4;
     hyphens: auto;
 
-    max-width: 65ch;
+    max-width: 78ch;
 
     margin: 0 auto;
 }
 
 header {
-    max-width: 78ch;
     font-family: 'Source Code Pro', monospace;
     margin-top: 2em;
     margin-bottom: 3em;
@@ -41,6 +40,7 @@ header a {
 }
 
 article {
+    max-width: 65ch;
     font-family: 'Source Serif Pro', serif;
     text-align: left;
     margin-top: 3em;
